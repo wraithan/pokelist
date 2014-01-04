@@ -1,5 +1,5 @@
 var Backbone = require('../vendor/backbone')
-  , games_collections = require('../collections/games')
+  , collections = require('../games/collections')
 
 var GameView = Backbone.View.extend({
   tagName: 'li'
@@ -12,7 +12,7 @@ var GameView = Backbone.View.extend({
 var GamesList = Backbone.View.extend({
   tagName: 'ul'
 , initialize: function() {
-    this.gc = new games_collections.GamesCollection()
+    this.gc = new collections.GamesCollection()
     this.listenTo(this.gc, 'add', this.addOne)
   }
 , addOne: function(game) {

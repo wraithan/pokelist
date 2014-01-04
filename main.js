@@ -1,6 +1,6 @@
 var Backbone = require('./vendor/backbone')
   , jQuery = require('./vendor/jquery')
-  , games_views = require('./views/games')
+  , games_views = require('./games/views')
 
 
 var Router = Backbone.Router.extend({
