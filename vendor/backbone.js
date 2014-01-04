@@ -1,4 +1,1 @@
-var backbone = require('backbone')
-
-backbone.$ = require('./jquery')
-module.exports = backbone
+module.exports = Backbone
