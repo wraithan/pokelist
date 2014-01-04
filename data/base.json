@@ -1,0 +1,11 @@
+{
+	"public": {
+		"games": [{
+			"name": "X",
+			"generation": "6"
+		}, {
+			"name": "Y",
+			"generation": "6"
+		}]
+	}
+}
