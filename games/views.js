@@ -1,5 +1,5 @@
 var Backbone = require('../vendor/backbone')
-  , collections = require('../games/collections')
+  , collections = require('./collections')
 
 var GameView = Backbone.View.extend({
   tagName: 'li'

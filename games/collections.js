@@ -1,5 +1,5 @@
 var Backbone = require('../vendor/backbone')
-  , models = require('../games/models')
+  , models = require('./models')
 
 var GamesCollection = Backbone.Firebase.Collection.extend({
   model: models.Game
